@@ -31,7 +31,7 @@ function Home() {
 
                 const userData = await response.json();
 
-                document.title = `${userData?.user?.about?.name + ' - ' + userData?.user?.about?.title}`;
+                document.title = 'Johnkennedy';
                 setUser(userData?.user);
                 setIsLoading(false);
                 document.body.classList.remove('loaded');

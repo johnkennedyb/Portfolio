@@ -10,7 +10,7 @@ function AboutSection() {
         <div className="lg:w-2/4 mb-8 lg:mb-0">
           <img
             className="w-full max-w-full rounded-lg shadow-lg animate-pulse"
-            src="src/assets/photo.jpg"
+            src="https://i.ibb.co/KWjGfkv/6791e3ff-3840-4920-97c6-b1ac48ca3b3b.jpg"
             alt="About"
             style={{ maxHeight: '400px', objectFit: 'cover', border: '5px solid Yellow' }}
           />

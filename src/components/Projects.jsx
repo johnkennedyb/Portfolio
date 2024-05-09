@@ -69,7 +69,7 @@ function ProjectSection() {
             whileHover={{ y: -10, boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2)' }}
             transition={{ duration: 0.3 }}
           >
-            <img className="w-full h-48 object-cover object-center" src="http://deepcodesystemsweb.rf.gd/wp-content/uploads/2024/01/pexels-alexander-grey-1148998-1-1.jpg" alt="Project 4" />
+            <img className="w-full h-48 object-cover object-center" src="https://i.ibb.co/QpY5h4f/pexels-alexander-grey-1148998-1-1.jpg" alt="Project 4" />
             <div className="p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Epilepsy Embraced</h3>
               <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie velit vitae nibh tempus, vitae fermentum mi commodo.</p>
@@ -85,7 +85,7 @@ function ProjectSection() {
             whileHover={{ y: -10, boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2)' }}
             transition={{ duration: 0.3 }}
           >
-            <img className="w-full h-48 object-cover object-center" src="http://deepcodesystemsweb.rf.gd/wp-content/uploads/2024/01/HD-wallpaper_-pink-orchid-stones-flowers-spa-flowering-plant-beauty-in-nature.jpeg" alt="Project 5" />
+            <img className="w-full h-48 object-cover object-center" src="https://i.ibb.co/TBk57Tz/HD-wallpaper-pink-orchid-stones-flowers-spa-flowering-plant-beauty-in-nature.jpg" alt="Project 5" />
             <div className="p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Mitchell Morris Lpc</h3>
               <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie velit vitae nibh tempus, vitae fermentum mi commodo.</p>
@@ -101,7 +101,7 @@ function ProjectSection() {
             whileHover={{ y: -10, boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2)' }}
             transition={{ duration: 0.3 }}
           >
-            <img className="w-full h-48 object-cover object-center" src="http://deepcodesystemsweb.rf.gd/wp-content/uploads/2024/01/boston-1536x1024.jpg" alt="Project 6" />
+            <img className="w-full h-48 object-cover object-center" src="https://i.ibb.co/9ydG6Hy/boston-1536x1024.jpg" alt="Project 6" />
             <div className="p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Dac Investigation Services</h3>
               <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie velit vitae nibh tempus, vitae fermentum mi commodo.</p>

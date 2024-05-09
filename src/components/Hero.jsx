@@ -40,7 +40,7 @@ function HeroPage() {
     >
         <img
       className=' spinner animate-bounce rounded-3xl p-px bg-gradient-to-b from-yellow-200 to-yellow'
-        src="src/assets/pic1.png"
+        src="https://i.ibb.co/c3DbyMd/unnamed-1.png"
         alt="Portfolio Image"
         style={{
           width: '150px', // Default size for desktop
