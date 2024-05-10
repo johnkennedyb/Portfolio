@@ -8,7 +8,6 @@ module.exports = plugin(function({ addUtilities }) {
             display: 'none',
         },
         '.no-scrollbar': {
-            '-ms-overflow-style': 'none',
             'scrollbar-width': 'none',
         },
     };

@@ -20,7 +20,7 @@ function HeroPage() {
 
   return (
     <motion.div
-      className="no-scrollbar [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] "
+      className=" "
       style={{
         backgroundImage: 'radial-gradient(black, #000033)',
         height: '100vh', // Cover full screen on mobile
@@ -31,7 +31,6 @@ function HeroPage() {
         color: 'white',
         textAlign: 'center',
         position: 'relative', // To position the social media icons and button
-        overflow: 'hidden',
       }}
       onMouseMove={(event) => {
         cursorX.set(event.clientX);

@@ -14,7 +14,7 @@ function ProjectSection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Project 1 */}
           <motion.div 
-            className="project-card bg-white rounded-lg shadow-lg overflow-hidden"
+            className="project-card bg-white rounded-lg shadow-lg "
             whileHover={{ y: -10, boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2)' }}
             transition={{ duration: 0.3 }}
           >
@@ -30,7 +30,7 @@ function ProjectSection() {
           </motion.div>
           {/* Project 2 */}
           <motion.div 
-            className="project-card bg-white rounded-lg shadow-lg overflow-hidden"
+            className="project-card bg-white rounded-lg shadow-lg "
             whileHover={{ y: -10, boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2)' }}
             transition={{ duration: 0.3 }}
           >
@@ -46,7 +46,7 @@ function ProjectSection() {
           </motion.div>
           {/* Project 3 */}
           <motion.div 
-            className="project-card bg-white rounded-lg shadow-lg overflow-hidden"
+            className="project-card bg-white rounded-lg shadow-lg "
             whileHover={{ y: -10, boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2)' }}
             transition={{ duration: 0.3 }}
           >
@@ -65,7 +65,7 @@ function ProjectSection() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
           {/* Project 4 */}
           <motion.div 
-            className="project-card bg-white rounded-lg shadow-lg overflow-hidden"
+            className="project-card bg-white rounded-lg shadow-lg "
             whileHover={{ y: -10, boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2)' }}
             transition={{ duration: 0.3 }}
           >
@@ -81,7 +81,7 @@ function ProjectSection() {
           </motion.div>
           {/* Project 5 */}
           <motion.div 
-            className="project-card bg-white rounded-lg shadow-lg overflow-hidden"
+            className="project-card bg-white rounded-lg shadow-lg "
             whileHover={{ y: -10, boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2)' }}
             transition={{ duration: 0.3 }}
           >
@@ -97,7 +97,7 @@ function ProjectSection() {
           </motion.div>
           {/* Project 6 */}
           <motion.div 
-            className="project-card bg-white rounded-lg shadow-lg overflow-hidden"
+            className="project-card bg-white rounded-lg shadow-lg "
             whileHover={{ y: -10, boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2)' }}
             transition={{ duration: 0.3 }}
           >

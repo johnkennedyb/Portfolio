@@ -13,7 +13,7 @@ const skills = [
 
 const SkillPage = () => {
   return (
-    <div className="skill-page bg-black overflow-hidden text-white min-h-screen px-10 py-10 flex flex-col justify-center items-center" style={{
+    <div className="skill-page bg-black  text-white min-h-screen px-10 py-10 flex flex-col justify-center items-center" style={{
       backgroundImage: 'radial-gradient(black, #000033)',
 
     }}>
@@ -32,7 +32,7 @@ const SkillPage = () => {
           >
             <h3 className="text-xl font-bold mb-2">{skill.name}</h3>
             <p className="text-sm mb-4">{skill.lorem}</p>
-            <div className="w-full h-2 bg-gray-600 rounded-full overflow-hidden">
+            <div className="w-full h-2 bg-gray-600 rounded-full ">
               <motion.div
                 className="h-full bg-blue-500"
                 initial={{ width: skill.name === 'WordPress' ? '70%' : skill.name === 'CSS' ? '60%' : skill.name === 'Bootstrap' ? '50%' : 0 }}
