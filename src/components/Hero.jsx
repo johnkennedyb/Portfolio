@@ -56,7 +56,7 @@ function HeroPage() {
           
         }}
       />
-      <h1 className='text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-center ' style={{
+      <h1 className='text-3xl md:text-5xl lg:text-6xl xl:text-7xl text-center ' style={{
       lineHeight: '1',
       marginTop: '0px'
     }}>
@@ -66,7 +66,7 @@ function HeroPage() {
       <div style={{ bottom: '75px', top: '50px', display: 'flex', gap: '20px', color: 'yellow', zIndex: 1000 }}>
         <a href="https://www.linkedin.com/in/johnkennedy-nnawuihe-22824a23a/" target="_blank" rel="noopener noreferrer"><FaLinkedin size={30} /></a>
         <a href="https://github.com/johnkennedyb" target="_blank" rel="noopener noreferrer"><FaGithub size={30} /></a>
-        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><FaFacebook size={30} /></a>
+        <a href="https://web.facebook.com/profile.php?id=100080993383902" target="_blank" rel="noopener noreferrer"><FaFacebook size={30} /></a>
       </div>
      <a href="#contact"> <button className='border border-yellow-400 text-yellow-400 hover:text-white hover:bg-yellow-400' style={{ padding: '10px 20px', backgroundColor: 'rgba(255, 255, 255, 0.1)', color: 'white', border: 'none', borderRadius: '5px', borderColor: 'yellow', marginTop: '20px' }}>Contact me</button></a> 
       <motion.div
