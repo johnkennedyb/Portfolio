@@ -9,7 +9,6 @@ import Projects from '../components/Projects';
 import Testimonial from '../components/Testimonial';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer.jsx';
-// import '../index.css'; 
 
 function Home() {
     const params = useParams();

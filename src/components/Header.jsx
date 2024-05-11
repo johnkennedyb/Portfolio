@@ -27,7 +27,7 @@ const DropdownMenu = () => {
         Menu
       </button>
       {isOpen && (
-        <div className="absolute right-0 mt-2 w-56 bg-yellow-500 rounded-lg shadow-lg z-10" style={{width:'25vw'}}>
+        <div className="absolute right-0 mt-2 w-56 bg-yellow-500 rounded-lg shadow-lg z-10" style={{width:'300px'}}>
           <button onClick={closeMenu} className="absolute top-0 right-0 m-2 text-yellow-400 hover:text-white text-4xl font-bold">&times;</button>
           <div className="py-2">
             <a
