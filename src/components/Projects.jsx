@@ -54,7 +54,7 @@ function ProjectSection() {
             <img className="w-full h-48 object-cover object-center" src="https://images.pexels.com/photos/6963944/pexels-photo-6963944.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Project 2" />
             <div className="p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-2">E-commerce shop</h3>
-              <p className="text-gray-600">This is a simple Ecommerce website built with React, redux, and bootstrap.......</p>
+              <p className="text-gray-600">This is a simple Ecommerce website built with React, redux, and bootstrap.</p>
               <div className="flex justify-between mt-4">
   <a href="https://evon-v8mc.vercel.app/"><button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Live Demo</button></a>
  <a href="https://Github.Com/Johnkennedyb/Evon"><button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Github</button></a> 
@@ -75,7 +75,7 @@ function ProjectSection() {
             <img className="w-full h-48 object-cover object-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFl_hCzOMjDJjBXteNUgXzdhx00LguIYP3ro1XGtUEyA&s" alt="Project 3" />
             <div className="p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Dashboard-login App</h3>
-              <p className="text-gray-600">This is a simple dashboard-login app built on Mern stack (fullstack web-app)....</p>
+              <p className="text-gray-600">This is a simple dashboard-login app built on Mern stack (fullstack web-app).</p>
               <div className="flex justify-between mt-4">
   <a href="https://blackcofferreact.onrender.com/"><button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Live Demo</button></a>
   <a href="https://Github.Com/Johnkennedyb/Blackcofferfrontend"><button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Github</button></a>
@@ -91,7 +91,7 @@ function ProjectSection() {
             <img className="w-full h-48 object-cover object-center" src="https://i.ibb.co/TBk57Tz/HD-wallpaper-pink-orchid-stones-flowers-spa-flowering-plant-beauty-in-nature.jpg" alt="Project 5" />
             <div className="p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Mitchell Morris Lpc</h3>
-              <p className="text-gray-600">This is a fully functional website built with Wordpress and themes...........</p>
+              <p className="text-gray-600">This is a fully functional and scalable website built with Wordpress and themes</p>
               <div className="flex justify-between mt-4">
   <a href="https://michellemorrislpc.com/"><button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Live Demo</button></a>
   <button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Github</button>
@@ -107,7 +107,7 @@ function ProjectSection() {
             <img className="w-full h-48 object-cover object-center" src="https://i.ibb.co/9ydG6Hy/boston-1536x1024.jpg" alt="Project 6" />
             <div className="p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Dac Investigation Services</h3>
-              <p className="text-gray-600">This is a fully scalable website built with Wordpress and themes.............</p>
+              <p className="text-gray-600">This is a fully functional and scalable website built with Wordpress and themes</p>
               <div className="flex justify-between mt-4">
   <a href="https://dacinvestigationservice.com/"><button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Live Demo</button></a>
   <button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Github</button>
