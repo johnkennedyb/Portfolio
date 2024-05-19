@@ -45,7 +45,7 @@ const SkillPage = () => {
       </motion.div>
       <hr className="w-32 border-2 border-white my-8" />
       <p className="text-lg">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        The above are the skills i possess as a software developer
       </p>
     </div>
   );
