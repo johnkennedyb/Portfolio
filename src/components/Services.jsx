@@ -33,7 +33,7 @@ function ServicesSection() {
     {
       id: 1,
       title: ' Full-stack Website Development',
-      description: 'I build Fully functional Website with Mongodb, Reactjs, Nodejs, Expressjs.',
+      description: 'I build fully functional websites with Mongodb, Reactjs, Nodejs, Expressjs.',
       imageUrl: 'https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=600',
       link: 'service1_link',
     },
