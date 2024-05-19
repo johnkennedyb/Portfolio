@@ -54,7 +54,7 @@ function ProjectSection() {
             <img className="w-full h-48 object-cover object-center" src="https://images.pexels.com/photos/6963944/pexels-photo-6963944.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Project 2" />
             <div className="p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-2">E-commerce shop</h3>
-              <p className="text-gray-600">This is a simple Ecommerce website built with React, redux, and bootstrap.</p>
+              <p className="text-gray-600">This is a simple Ecommerce website built with React, redux, javascript and bootstrap.</p>
               <div className="flex justify-between mt-4">
   <a href="https://evon-v8mc.vercel.app/"><button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Live Demo</button></a>
  <a href="https://Github.Com/Johnkennedyb/Evon"><button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Github</button></a> 
@@ -75,7 +75,7 @@ function ProjectSection() {
             <img className="w-full h-48 object-cover object-center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFl_hCzOMjDJjBXteNUgXzdhx00LguIYP3ro1XGtUEyA&s" alt="Project 3" />
             <div className="p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Dashboard-login App</h3>
-              <p className="text-gray-600">This is a simple dashboard-login app built on Mern stack (fullstack web-app).</p>
+              <p className="text-gray-600">This is a simple scalable dashboard-login app built with Mern stack (fullstack web-app).</p>
               <div className="flex justify-between mt-4">
   <a href="https://blackcofferreact.onrender.com/"><button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Live Demo</button></a>
   <a href="https://Github.Com/Johnkennedyb/Blackcofferfrontend"><button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Github</button></a>
