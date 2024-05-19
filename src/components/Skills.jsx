@@ -43,7 +43,7 @@ const SkillPage = () => {
           </motion.div>
         ))}
       </motion.div>
-      <hr className="w-32 border-2 border-white my-8" />
+      <hr className="w-32 border-2 border-white mt-8 mb-20" />
 
     </div>
   );
