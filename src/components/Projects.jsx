@@ -91,7 +91,7 @@ function ProjectSection() {
             <img className="w-full h-48 object-cover object-center" src="https://i.ibb.co/TBk57Tz/HD-wallpaper-pink-orchid-stones-flowers-spa-flowering-plant-beauty-in-nature.jpg" alt="Project 5" />
             <div className="p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Mitchell Morris Lpc</h3>
-              <p className="text-gray-600">This is a fully functional and scalable website built with Wordpress and themes</p>
+              <p className="text-gray-600">This is a fully functional and scalable website built with Wordpress and themes.</p>
               <div className="flex justify-between mt-4">
   <a href="https://michellemorrislpc.com/"><button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Live Demo</button></a>
   <button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Github</button>
@@ -107,7 +107,7 @@ function ProjectSection() {
             <img className="w-full h-48 object-cover object-center" src="https://i.ibb.co/9ydG6Hy/boston-1536x1024.jpg" alt="Project 6" />
             <div className="p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Dac Investigation Services</h3>
-              <p className="text-gray-600">This is a fully functional and scalable website built with Wordpress and themes</p>
+              <p className="text-gray-600">This is a fully functional and scalable website built with Wordpress and themes.</p>
               <div className="flex justify-between mt-4">
   <a href="https://dacinvestigationservice.com/"><button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Live Demo</button></a>
   <button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Github</button>
