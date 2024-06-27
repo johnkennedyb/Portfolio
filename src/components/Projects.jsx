@@ -24,8 +24,8 @@ function ProjectSection() {
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Zwilt Landing page</h3>
               <p className="text-gray-600">This is a fully functional Landing page built with Mern Stack and Redux.</p>
               <div className="flex justify-between mt-4">
-  <a href="https://dacinvestigationservice.com/"><button className="px-4 py-2 bg-yellow-500 text-black rounded hover:text-white hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Live Demo</button></a>
-  <button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 hover:text-white focus:outline-none focus:bg-gray-900">Github</button>
+  <a href="https://zwilt-john.vercel.app/"><button className="px-4 py-2 bg-yellow-500 text-black rounded hover:text-white hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Live Demo</button></a>
+ <a href="https://github.com/johnkennedyb/punch-zwilt"><button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 hover:text-white focus:outline-none focus:bg-gray-900">Github</button></a> 
 </div>
             </div>
           </motion.div>
