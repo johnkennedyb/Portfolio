@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { motion } from 'framer-motion';
 
 function ServicesSection() {
   const servicesRef = useRef(null);
@@ -67,21 +66,15 @@ function ServicesSection() {
     }}>
       <div
         ref={servicesRef}
-        className="grid  gap-8 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full max-w-7xl"
+        className="grid gap-8 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full max-w-7xl slide-in"
       >
-        <motion.div
-          className="services-text mb-12 mt-12"
-          initial={{ y: '100vh', opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5 }}
-          whileHover={{ scale: 1.1 }}
-        >
+        <div className="services-text mb-12 mt-12">
           <h2 className="text-3xl font-bold mb-8 px-5">Services</h2>
           <ul>
             {services.map(service => (
-              <motion.li 
+              <li 
                 key={service.id}
-                className="mt-20 mb-20 text-5xl px-5 font-bold relative"
+                className="mt-20 mb-20 text-5xl px-5 font-bold relative hover:scale-105 transition-transform duration-300"
                 onMouseEnter={() => handleServiceHover(service.id)}
                 onMouseLeave={handleServiceLeave}
                 style={{ fontSize: '2rem' }} // Smaller font size for mobile
@@ -91,23 +84,20 @@ function ServicesSection() {
                   <p className="text-sm">{service.description}</p>
                 </div>
                 {hoveredService === service.id && (
-                  <motion.div 
-                    className="absolute top-0 right-0 w-full h-full bg-black bg-opacity-75 flex justify-between items-center px-4"
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0 }}
+                  <div 
+                    className="absolute top-0 right-0 w-full h-full bg-black bg-opacity-75 flex justify-between items-center px-4 transition-opacity duration-300 ease-in-out"
                   >
                     <a href={service.link}>
                       <img src={service.imageUrl} alt={service.title} className="max-w-xs scale-75 transform rotate-6" style={{ marginLeft: '40rem' }} />
                     </a>
                     <a href="#projects"><button className="text-black bg-yellow-500 px-4 py-2 rounded" style={{ marginRight: '8rem', fontSize:'20px', }}>See More</button></a>
-                  </motion.div>
+                  </div>
                 )}
                 <div className="border-t-2 border-yellow-500 border-b-1 border-white my-2"></div>
-              </motion.li>
+              </li>
             ))}
           </ul>
-        </motion.div>
+        </div>
       </div>
     </div>
   );
