@@ -1,18 +1,11 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 
 const ContactSection = () => {
   return (
-    <motion.div
-      initial={{ opacity: 0, x: '-100%' }}
-      animate={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.5 }}
-      className="flex justify-center items-center min-h-screen bg-black pb-0"
-      style={{
-        backgroundImage: 'radial-gradient(black, #000033)',
-      }}
-    >
-      <div className="container mx-auto px-5 py-8 rounded-lg shadow-lg flex flex-col md:flex-row md:space-x-8">
+    
+      <div className="container mx-auto px-5 py-8 rounded-lg shadow-lg flex flex-col md:flex-row md:space-x-8  justify-center items-center min-h-screen bg-black pb-0"   style={{
+            backgroundImage: 'radial-gradient(black, #000033)',
+           }} >
         {/* Contact Information */}
         <div className="md:w-2/4 text-white flex flex-col justify-center">
           <h1 className="font-bold mt-10 mb-4">Get in Touch</h1>
@@ -46,7 +39,7 @@ const ContactSection = () => {
         {/* Contact Form */}
         <div className="md:w-2/4 md:flex md:flex-col">
           <form className="w-full">
-            <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
+            <h2 className="text-2xl text-white font-semibold mb-4">Contact Us</h2>
             <div className="form-group">
               <label htmlFor="name" className="block text-gray-700">
                 Name
@@ -89,7 +82,6 @@ const ContactSection = () => {
           </form>
         </div>
       </div>
-    </motion.div>
   );
 };
 
