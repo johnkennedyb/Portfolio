@@ -5,6 +5,8 @@ function HeroPage() {
   return (
     <div
       className="bg-radial-gradient from-black to-[#000033] h-screen flex flex-col justify-center items-center text-white text-center relative"
+      style={{
+        backgroundImage: 'radial-gradient(black, #000033)',}}
     >
       <img
         className="animate-bounce rounded-3xl p-px bg-gradient-to-b from-yellow-200 to-yellow"
