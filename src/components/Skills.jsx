@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'framer-motion';
 
 const skills = [
   { name: 'React', lorem: 'With React, you can build complex web applications with a declarative and component-based approach, enabling better code organization, maintainability' },
@@ -13,41 +12,32 @@ const skills = [
 
 const SkillPage = () => {
   return (
-    <div className="skill-page bg-black  text-white min-h-screen px-10 py-10 flex flex-col justify-center items-center" style={{
+    <div className="skill-page bg-black text-white min-h-screen px-10 py-10 flex flex-col justify-center items-center" style={{
       backgroundImage: 'radial-gradient(black, #000033)',
-
     }}>
       <h1 className="text-3xl mt-20 font-bold mb-8">Skills</h1>
-      <motion.div
-        className="skills-container grid md:grid-cols-3 gap-8 w-full"
-        initial={{ x: '-100vw' }}
-        animate={{ x: 0 }}
-        transition={{ type: 'spring', stiffness: 120, duration: 1 }}
-      >
+      <div className="skills-container grid md:grid-cols-3 gap-8 w-full transform transition-transform duration-1000 ease-out translate-x-0">
         {skills.map((skill, index) => (
-          <motion.div
+          <div
             key={index}
-            className="skill-card bg-gray-900 rounded-lg p-6 text-center relative"
-            whileHover={{ scale: 1.05 }}
+            className="skill-card bg-gray-900 rounded-lg p-6 text-center relative transform transition-transform duration-500 ease-in-out hover:scale-105"
           >
             <h3 className="text-xl font-bold mb-2">{skill.name}</h3>
             <p className="text-sm mb-4">{skill.lorem}</p>
-            <div className="w-full h-2 bg-gray-600 rounded-full ">
-              <motion.div
-                className="h-full bg-blue-500"
-                initial={{ width: skill.name === 'WordPress' ? '70%' : skill.name === 'CSS' ? '60%' : skill.name === 'Bootstrap' ? '50%' : 0 }}
-                animate={{ width: '100%' }}
-                transition={{ type: 'spring', stiffness: 120, duration: 1 }}
+            <div className="w-full h-2 bg-gray-600 rounded-full">
+              <div
+                className="h-full bg-blue-500 transition-all duration-1000 ease-out"
+                style={{
+                  width: skill.name === 'WordPress' ? '70%' : skill.name === 'CSS' ? '60%' : skill.name === 'Bootstrap' ? '50%' : '100%'
+                }}
               />
             </div>
-          </motion.div>
+          </div>
         ))}
-      </motion.div>
+      </div>
       <hr className="w-32 border-2 border-white mt-8 mb-20" />
-
     </div>
   );
 };
 
 export default SkillPage;
-
