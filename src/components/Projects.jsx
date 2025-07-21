@@ -27,7 +27,7 @@ function ProjectSection() {
 
           {/* Project 2 */}
           <div className="project-card bg-white rounded-lg shadow-lg transition-transform transform hover:-translate-y-2 hover:shadow-2xl">
-            <img className="w-full h-48 object-cover object-center" src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1719413969/Zwilt_q0qgbb.png" alt="Landing page preview for Zwilt" />
+            <img className="w-full h-48 object-cover object-center" src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1753099910/Quluub-counselling-07-21-2025_01_10_PM_dqhefb.png" alt="Landing page preview for Zwilt" />
             <div className="p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-2">Quluub Counselling </h3>
               <p className="text-gray-600">A fully functional Muslim Matrimonial app built by me .</p>
