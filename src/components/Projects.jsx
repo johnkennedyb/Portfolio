@@ -29,13 +29,13 @@ function ProjectSection() {
           <div className="project-card bg-white rounded-lg shadow-lg transition-transform transform hover:-translate-y-2 hover:shadow-2xl">
             <img className="w-full h-48 object-cover object-center" src="https://res.cloudinary.com/dw7w2at8k/image/upload/v1719413969/Zwilt_q0qgbb.png" alt="Landing page preview for Zwilt" />
             <div className="p-6">
-              <h3 className="text-lg font-semibold text-gray-800 mb-2">Zwilt Landing Page</h3>
-              <p className="text-gray-600">A fully functional landing page built with MERN Stack and Redux.</p>
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">Quluub Counselling </h3>
+              <p className="text-gray-600">A fully functional Muslim Matrimonial app built by me .</p>
               <div className="flex justify-between mt-4">
-                <a href="https://zwilt-john.vercel.app/">
+                <a href="https://quluub.nikahnavigator.com/">
                   <button className="px-4 py-2 bg-yellow-500 text-black rounded hover:text-white hover:bg-gray-900 focus:outline-none focus:bg-gray-900">Live Demo</button>
                 </a>
-                <a href="https://github.com/johnkennedyb/punch-zwilt">
+                <a href="#">
                   <button className="px-4 py-2 bg-yellow-500 text-black rounded hover:bg-gray-900 hover:text-white focus:outline-none focus:bg-gray-900">Github</button>
                 </a>
               </div>
